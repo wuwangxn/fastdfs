@@ -1,0 +1,7 @@
+package com.xning.fastdfs.user.repositroy;
+
+import com.xning.fastdfs.user.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<User,Long> {
+}
